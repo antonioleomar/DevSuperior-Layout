@@ -1,0 +1,259 @@
+@media (max-width: 576px){
+
+    .container-main {
+        display: flex;        
+        align-items: center;
+        flex-direction: column;
+        background-color: #00285F;    
+        height: 365px;  
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 10px;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .image-carro {
+        height: 146px;
+        width: 247px;       
+        margin-top: 62px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-text {
+        margin-top: 35px;       
+        display: flex;
+        justify-content: center;       
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-first {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-second {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        width: 251px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+}
+
+
+@media (min-width: 576px){
+    .container-main {
+        display: flex;        
+        align-items: center;
+        flex-direction: column;
+        background-color: #00285F;    
+        height: 365px;  
+        width: 536px;
+        margin-top: 30px;
+        margin-left: 20px;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .image-carro {
+        height: 199px;
+        width: 333px;       
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-text {
+        margin-top: 19px;       
+        display: flex;
+        justify-content: center;       
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-first {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-second {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    .container-main {
+        display: flex;        
+        align-items: center;
+        flex-direction: column;
+        background-color: #00285F;    
+        height: 475px;  
+        width: 728px;
+        margin-top: 30px;
+        margin-left: 20px;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .image-carro {
+        height: 199px;
+        width: 333px;       
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-text {
+        margin-top: 40px;       
+        display: flex;
+        justify-content: center;       
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-first {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-second {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media (min-width:992px) {
+
+    .container-main {
+        display: flex;        
+        align-items: center;
+        flex-direction: column;
+        background-color: #00285F;    
+        height: 579px;  
+        width: 952px;
+        margin-top: 30px;
+        margin-left: 20px;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .image-carro {
+        height: 272px;
+        width: 445px;       
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-text {
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;       
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-first {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-second {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+}
+
+
+@media (min-width:1200px) {
+
+    .container-main {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        background-color: #00285F;
+        height: 365px;
+        width: 979px;
+        margin-left: 120px;
+        margin-top: 30px;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .image-carro {
+        height: 199px;
+        width: 333px;
+        margin-right: 78px;
+    }
+
+    .container-text {
+        margin-right: 30px;
+    }
+
+    .text-first {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+    }
+
+    .text-second {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        width: 420px;
+    }
+
+
+}

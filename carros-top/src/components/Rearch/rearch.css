@@ -1,0 +1,117 @@
+.container-main-busca {
+    width: 979px;
+    height: 123px;
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.input-busca {
+    width: 584px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+}
+
+.btn-busca {
+    width: 174px;
+    height: 40px;
+    background-color: #00285F;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-busca:hover {
+    background-color: blue;
+}
+
+
+
+@media (max-width:576px) {
+
+    .container-main-busca {
+        width: 300px;
+    }
+
+    .input-busca {
+        width: 170px;
+    }
+
+    .btn-busca {
+        width: 100px;
+    }
+}
+
+
+@media (min-width:576px) {
+
+    .container-main-busca {
+        width: 536px;
+    }
+
+    .input-busca {
+        width: 320px;
+    }
+
+    .btn-busca {
+        width: 174px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .container-main-busca {
+        width: 728px;
+    }
+
+    .input-busca {
+        width: 516px;
+    }
+}
+
+
+@media (min-width:992px) {
+
+    .container-main-busca {
+        width: 979px;
+        height: 123px;
+        background-color: #EDEDED;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+
+    .container-main-busca {
+        width: 1150px;
+    }
+
+}
+
+
+@media (min-width:1400px) {
+
+    .container-main-busca {
+        width: 1300px;
+    }
+
+}

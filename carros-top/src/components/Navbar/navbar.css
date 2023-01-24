@@ -1,0 +1,49 @@
+.navbar-container {
+    background-color: #F78B00;
+    color: #00285F;
+    display: flex;    
+}
+
+.nav{
+    min-height: 70px;
+}
+
+.nav-logo-text {   
+    color: #00285F;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 110px;
+    text-decoration: none;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #00285F;
+    margin-left: 110px;
+}
+
+.main-menu li a{
+    font-size: 18px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 48px;
+    color:#00285F;
+}
+
+.main-menu li a:hover{
+    color: red;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    margin-right: 151px;
+}
+
+
+
+

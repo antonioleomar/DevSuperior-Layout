@@ -1,0 +1,159 @@
+.container-main-card {
+    width: 310px;
+    height: 347px;
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.image-carcard {
+    width: 213px;
+    height: 165px;
+}
+
+.container-card-text {
+    width: 255px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-card-1 {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-card-2 {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.btn-card {
+    width: 257px;
+    height: 40px;
+    background-color: #00285F;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 38px;
+}
+
+.btn-card:hover {
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+
+    .container-main-card {        
+        margin-left: 8px;      
+    }
+}
+
+@media (min-width:576px) {
+    
+    .container-main-card {
+        width: 258px;
+        height: 347px;       
+        margin-left: 6px;
+        margin-bottom: 30px;
+    }
+
+    .container-card-text {
+        width: 220px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-card-2 {        
+        font-size: 12px;
+        font-weight: 400;
+        text-align:right;
+        margin-top: 10px;
+        font-style:italic;
+        line-height: 14px;
+        text-align: justify;
+    }
+    
+    .btn-card {
+        width: 220px;
+        height: 40px;
+        background-color: #00285F;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 38px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .container-main-card {
+        width: 310px;
+        height: 347px;
+        background-color: #EDEDED;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .container-main-card {
+        width: 310px;
+        height: 347px;
+        background-color: #EDEDED;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+        margin-bottom: 30px;
+        margin-left: 2px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .container-main-card {
+        width: 310px;
+        height: 347px;
+        background-color: #EDEDED;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+        margin-bottom: 30px;
+        margin-left: 35px;
+    }
+}
